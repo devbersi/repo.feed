@@ -1,0 +1,48 @@
+.headerMain {
+  width: 100vw;
+  height: 10vh;
+
+  background-color: #171717;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+  border-bottom: 1px solid #858585;
+
+  .headerTitle {
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    h2 {
+      font-weight: 700;
+      color: #fff;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+
+  .headerList {
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+
+      color: rgb(165, 165, 165);
+      font-weight: 600;
+    }
+  }
+}
